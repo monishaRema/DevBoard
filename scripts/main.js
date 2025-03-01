@@ -41,7 +41,6 @@ colorPicker.addEventListener("click", function(){
     const blue = Math.floor(Math.random()  * 255);
     const alpha = Math.random();
     body.style.backgroundColor = `rgba(${red}, ${green}, ${blue}, ${alpha})`;
-    console.log(alpha);
 
 });
 
